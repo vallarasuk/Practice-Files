@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container div {
+    margin: 10px;
+    padding: 20px;
+    background-color: aqua;
+    color: pink;
+    border-radius: .7rem;
+    -webkit-border-radius: .7rem;
+    -moz-border-radius: .7rem;
+    -ms-border-radius: .7rem;
+    -o-border-radius: .7rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(158, 26, 48);
+    height: 400px;
+}
+
+.container h1 {
+    background-color: black;
+    text-align: center;
+    color: red;
+    padding: 20px;
+}
+
+.container p {
+    margin: 2rem;
+    text-indent: 4rem;
+}
+
+.flex-container span {
+    margin-left: 3rem;
+    background-color: orangered;
+    padding: 4px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}

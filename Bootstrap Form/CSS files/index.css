@@ -1,0 +1,22 @@
+.ema {
+    padding-left: 2.5rem;
+}
+
+.fr {
+    background-image: url(/images/sander-weeteling-4j47m4oWbA8-unsplash.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.b1 {
+    background-image: url(/images/sander-weeteling-4j47m4oWbA8-unsplash.jpg);
+    background-position: center;
+}
+
+body {
+    background-image: url(/images/pexels-mohamed-almari-1485894.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

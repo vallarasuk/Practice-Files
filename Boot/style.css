@@ -1,0 +1,44 @@
+body {
+    background-color: rgba(194, 18, 56, 0.356);
+}
+
+.row {
+    border: 2px solid gray;
+}
+
+.grid-layouts.row {
+    border: 2px solid violet;
+}
+
+.bg-dark1 {
+    border: 1px solid red;
+}
+
+.btnr {
+    background-color: aqua;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+
+/* ul li {
+    padding: 1rem;
+    font-size: 1rem;
+    list-style: none;
+    display: inline;
+} */
+
+
+/* ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    background-color: rgba(56, 53, 53, 0.842);
+} */
+
+.container table {
+    /* border: 2px solid gray; */
+}

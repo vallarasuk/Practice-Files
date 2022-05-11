@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Form</title>
+    <!-- External css link -->
+    <link rel="stylesheet" href="/CSS files/index.css">
+    <!-- Bootstrap css link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- container start -->
+    <div class="container-lg">
+        <!-- navbar-start -->
+        <nav class="navbar navbar-expand-md bg-secondary bg-opacity-50 rounded-bottom ">
+            <!-- navbar icon and company name -->
+            <a class="navbar-brand ms-3"><img src="chrome://branding/content/about-logo.png" alt="Logo" style="width: 2.5rem;"> <strong class="ms-2 d-inline-block bg-dark text-danger p-2 px-3 rounded-circle px-3">BRANDING NAME</strong></a>
+
+            <!-- toggle button -->
+            <button class="navbar-toggler mx-3" type="button" data-bs-target="#nav" data-bs-toggle="collapse">
+                <img src="/images/list.svg" alt="list icon " style="width: 2rem;" class="mx-2 border-0">
+            </button>
+            <!-- navbar items start -->
+            <div class="collapse navbar-collapse " id="nav">
+
+                <ul class="navbar-nav ms-auto text-center">
+                    <!-- navbar item 1 -->
+                    <li class="nav-item">
+                        <a href="/HTML files/index.html" class="nav-link bg-light m-2 rounded-3 fw-bold  text-dark">Home</a>
+                    </li>
+                    <!-- navbar item 2 -->
+                    <li class="nav-item">
+                        <a href="/HTML files/gallery.html" class="nav-link bg-light m-2 rounded-3  text-dark ">Gallery</a>
+                    </li>
+                    <!-- navbar item 3 -->
+                    <li class="nav-item">
+                        <a href="/HTML files/service.html" class="nav-link bg-light m-2 rounded-3  text-dark">Service</a>
+                    </li>
+                    <!-- navbar item 4 -->
+                    <li class="nav-item">
+                        <a href="/HTML files/about.html" class="nav-link bg-light m-2 rounded-3 text-dark">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar end -->
+        <div class="row my-5 text-dark justify-content-around mb-5">
+            <!-- column 1 -->
+            <div class="col-md-5 text-center text-light bg-secondary bg-opacity-50 rounded-3 p-3 mb-5">
+                <!-- sign in  -->
+                <p class=" display-4 fw-bold mb-4 ">Sign in </p>
+                <!-- icons -->
+                <div class="m-2 my-2 bg-white p-2 bg-opacity-25 rounded-pill ">
+                    <img src="/images/facebook.svg" alt="facebook icon" style="width:2rem;" class="me-4 bg-info rounded-circle">
+                    <img src="/images/google.svg" alt="Google icon" style="width:2rem;" class="me-4">
+                    <img src="/images/whatsapp.svg" alt="whatsapp icon" style="width:2rem;" class="me-4 bg-success rounded-circle">
+                    <img src="/images/youtube.svg" alt="Youtube icon" style="width:2.5rem;" class="me-4 bg-danger rounded-pill">
+                </div>
+                <!-- print -->
+                <p class="mt-4 fw-bold ">or Use your account</p>
+                <form>
+                    <div class="mb-4  mx-5 ema">
+                        <!-- Email input box -->
+                        <input type="email" class="form-control" id="email" placeholder="Enter email account" aria-placeholder="Enter email account">
+                    </div>
+                    <!-- Password input box -->
+                    <div class="mb-4 mx-5 ema">
+                        <input type="password" class="form-control" name="password" id="password" placeholder="Enter password">
+                    </div>
+                    <div class="form-check">
+                        <!-- Remember check button -->
+                        <label class="form-check-label "><input type="checkbox" class="form-check-input">
+                        <span class="ms-1 fw-bold text-white fw-bold text-">Remember me</span> 
+                    </label>
+                    </div>
+                    <!-- Login button -->
+                    <button class="btn btn-danger mx-4 fw-bold mt-3 " type="submit">Sign in</button>
+                </form>
+            </div>
+            <!-- column 2 -->
+            <div class="col-md-5 f text-white fw-bolder text-center rounded-3  bg-dark bg-opacity-75 mb-5 ">
+                <h4 class="mt-5 bg-secondary bg-opacity-25  d-inline-block p-3 text-white fw-bold rounded-3">Welcome dear guys....!</h4>
+                <p class="display-4 text-center ">Hello, Friend...!</p>
+                <p class="h6">Enter your personal details and start journey with us</p>
+                <button class="btn b1 border-2 border-white px-3 mt-5 fw-bold">SIGN UP</button>
+                <br>
+                <br><br><br>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Bootstrap java link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

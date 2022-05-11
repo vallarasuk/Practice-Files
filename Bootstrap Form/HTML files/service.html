@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Service</title>
+    <!-- External css link -->
+    <link rel="stylesheet" href="/CSS files/service.css">
+    <!-- Bootstrap Css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container-lg">
+        <!-- navbar-start -->
+        <nav class="navbar navbar-expand-md bg-secondary bg-opacity-50 rounded-bottom ">
+            <!-- navbar icon and company name -->
+            <a class="navbar-brand ms-3"><img src="chrome://branding/content/about-logo.png" alt="Logo" style="width: 2.5rem;"> <strong class="ms-2 d-inline-block bg-dark text-danger p-2 px-3 rounded-circle px-3">BRANDING NAME</strong></a>
+
+            <!-- toggle button -->
+            <button class="navbar-toggler mx-3" type="button" data-bs-target="#nav" data-bs-toggle="collapse">
+                <img src="/images/list.svg" alt="list icon " style="width: 2rem;" class="mx-2 border-0">
+            </button>
+            <!-- navbar items -->
+            <div class="collapse navbar-collapse " id="nav">
+
+                <ul class="navbar-nav ms-auto text-center navbar-light">
+                    <!-- navbar item  -->
+                    <li class="nav-item">
+                        <a href="/HTML files/index.html" class="nav-link bg-light m-2 rounded-3  text-dark">Home</a>
+                    </li>
+                    <!-- navbar item -->
+                    <li class="nav-item">
+                        <a href="/HTML files/gallery.html" class="nav-link bg-light m-2 rounded-3  text-dark">Gallery</a>
+                    </li>
+                    <!-- navbar item -->
+                    <li class="nav-item">
+                        <a href="/HTML files/service.html" class="nav-link bg-light m-2 rounded-3  text-dark fw-bold">Service</a>
+                    </li>
+                    <!-- navbar item -->
+                    <li class="nav-item">
+                        <a href="/HTML files/about.html" class="nav-link bg-light m-2 rounded-3  text-dark">About us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbar end -->
+
+        <!-- content start -->
+        <div class="h2 mt-4 text-center text-uppercase bg-info p-2 bg-opacity-25 fw-bold mb-5 text-white">Our Service </div>
+        
+        <!-- row start -->
+        <div class="row justify-content-evenly text-center text-light ">
+            <!-- column 1 -->
+            <div class="col-sm-3 bg-danger bg-opacity-25">
+                <h5 class="h4 bg-light text-dark m-2 fw-bold p-2 rounded-3">Mechanical</h5>
+                <img src="/images/mechanical.jpg" alt="mechanical logo" style="width:   95%;">
+                <p class="p-2 btn-danger mt-2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque non, totam qui inventore veritatis quasi cupiditate placeat vel, vero aut ut. Cumque quia at doloremque modi vitae fuga laborum. Amet.</p>
+            </div>
+            <!-- column 2 -->
+            <div class="col-sm-3 bg-info bg-opacity-25">
+                <h5 class="h4 bg-light text-dark m-2 fw-bold p-2 rounded-3">Civil</h5>
+                <img src="/images/civil.png" alt="Civil logo" class="mt-1" style="width: 100%;">
+                <p class="p-2 bg-white text-dark mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque non, totam qui inventore veritatis quasi cupiditate placeat vel, vero aut ut. Cumque quia at doloremque modi vitae fuga laborum. Amet.</p>
+            </div>
+            <!-- column 3 -->
+            <div class="col-sm-3 bg-success bg-opacity-25">
+                <h5 class="h4 bg-light text-dark m-2 fw-bold p-2 rounded-3">Computer</h5>
+                <img src="/images/computer.jpg" alt="Computer logo" style="width: 95%;">
+                <p class="p-2 bg-success mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque non, totam qui inventore veritatis quasi cupiditate placeat vel, vero aut ut. Cumque quia at doloremque modi vitae fuga laborum. Amet.</p>
+            </div>
+            <!-- row end -->
+        </div><br><br><br>
+
+
+        <!-- Textarea content -->
+        <p class="h1 bg-dark bg-opacity-50 text-center text-light text-uppercase p-2 mb-4">Text area</p>
+        <!-- row 2 start -->
+        <div class="row text-center justify-content-evenly mb-5">
+
+            <!-- column 1 -->
+            <div class="col-sm-5 p-2 bg-secondary py-5 mb-5">
+                <h1 class=" bg-white d-inline-block px-4 rounded-3">RIGHT CONTENT</h1>
+                <p class="pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis blanditiis in eligendi est vero? Accusantium, atque ex quod omnis aspernatur eos assumenda odio quo cum rem nesciunt, nulla, unde hic?</p>
+            </div>
+
+            <!-- column 2 -->
+            <div class="col-sm-5 p-2 bg-secondary py-5 mb-5">
+                <h1 class="d-inline-block bg-white px-4 rounded-3">LEFT CONTENT</h1>
+                <p class="pt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis blanditiis in eligendi est vero? Accusantium, atque ex quod omnis aspernatur eos assumenda odio quo cum rem nesciunt, nulla, unde hic?</p>
+            </div>
+        </div>
+
+        <!-- Text area content -->
+        <div class="container mb-5 bg-dark p-5 bg-opacity-25  d-inline-block ">
+            <div class="row">
+                <!-- column 1 -->
+                <div class="col-sm-6 bg-secondary bg-opacity-75 p-3 text-center ">
+                    <h3 class="text-center bg-white p-2">Enter your comments</h3>
+                    <form>
+                        <div class="my-3  ">
+                            <label class=" bg-dark text-danger p-2 rounded-circle my-3" for="comment">Comments:</label><br>
+                            <textarea class="form-control  d-inline-block" rows="5" id="comment" name="text" style="width: 45%;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <!-- column 2 -->
+                <div class="col-sm-6 text-center mt-5">
+                    <h4 class="mt-2 display-3">Yours Feedback related to ours Service</h4>
+                    <a href="/HTML files/index.html" class="btn btn-success my-3"> Feedback Center</a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer section -->
+        <footer class="text-center py-2 mb-5  text-muted bg-dark ">Copyrights &copy;
+            <a href="/index.html" class="text-decoration-none"> company name</a> 2022-2023
+        </footer>
+    </div>
+
+
+
+    <!-- Bootstrap java script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
